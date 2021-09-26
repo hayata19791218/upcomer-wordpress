@@ -1,0 +1,47 @@
+.l-newemployee{
+    &__wrap{
+        display: flex;
+        justify-content:space-around;
+        align-items:center;
+        width: 400px;
+        margin:20px auto;
+        @media screen and (max-width:767px){
+            width: 90%;
+            margin-left:auto;
+            margin-right:auto;
+        }
+    }
+    &__content{
+        line-height:2em;
+        margin-top: 20px;
+        @media screen and (max-width:767px){
+            width: 90%;
+            margin-left:auto;
+            margin-right:auto;
+        }
+    }
+    &__explain{
+        margin-bottom: 15px;
+        width: 500px;
+        line-height: 2em;
+        @media screen and (max-width:767px){
+            width: 90%;
+            margin-left:auto;
+            margin-right:auto;
+        }
+    }
+    &__wrap-img{
+        width: 150px;
+        display: block;
+        @media screen and (max-width:767px){
+            width: 130px;
+        }
+    }
+    &__wrap-title{
+        font-weight: bold;
+        @media screen and (max-width:767px){
+            font-size: 14px;
+        }
+    }
+
+}

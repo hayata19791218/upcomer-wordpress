@@ -1,0 +1,59 @@
+.l-price__img {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-price__img {
+    display: block;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .l-price__img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .l-price__pc {
+    display: none;
+  }
+}
+
+.l-price__sp {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-price__sp {
+    display: block;
+    width: 750px;
+    margin: 100px auto 50px;
+  }
+  .l-price__sp p {
+    margin: 20px 0;
+    line-height: 2em;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .l-price__sp {
+    width: 90%;
+    margin-top: 70px;
+  }
+}
+
+.l-price__sp-table {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-price__sp-table {
+    display: block;
+  }
+}
+/*# sourceMappingURL=l-price.css.map */

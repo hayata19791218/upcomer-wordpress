@@ -1,0 +1,50 @@
+.c-topbot-border {
+  width: 750px;
+  margin: 70px auto 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .c-topbot-border {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .c-topbot-border {
+    width: 85%;
+    font-size: 14px;
+    margin-top: 60px;
+  }
+}
+
+.c-topbot-border__top, .c-topbot-border__bottom {
+  height: 10px;
+  background: -webkit-gradient(linear, left top, right bottom, from(#4197b6), to(#63de9f));
+  background: linear-gradient(to bottom right, #4197b6, #63de9f);
+}
+
+.c-topbot-border__title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .c-topbot-border__title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .c-topbot-border__title {
+    text-align: initial;
+    font-size: 16px;
+    line-height: 2em;
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/*# sourceMappingURL=c-topbot-border.css.map */

@@ -1,0 +1,286 @@
+//トップページのOBJECTIVE RESEARCH
+.u-js-background1,.u-js-background2,.u-js-background3,
+.u-js-background4,.u-js-background5,.u-js-background6,
+.u-js-background7{
+    background:#cfedff;
+    display: block;
+    z-index:-1;
+}
+
+
+//トップページのヘッダー
+.u-js-text-change1,.u-js-text-change2,.u-js-text-change3,
+.u-js-text-change4,.u-js-text-change5,.u-js-text-change7,
+.u-js-text-change8{  
+    &:hover{
+        color:#fff;
+        padding: 5px;
+        background:linear-gradient(to bottom right,#4197b6 ,#63de9f);
+        border-radius: 20px;
+    }
+}
+
+
+//トップページのチャート
+.u-js-chart{
+    width: 50%;
+    margin-bottom: 60px;
+    @media screen and (max-width:767px){
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+//kitのタブの切り替え
+.u-js-active{
+    background: linear-gradient(to bottom right, #4197b6, #63de9f)!important;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+    border-radius:15px;
+    font-size: 20px;
+    color:#fff;
+}
+.u-js-content{
+    display: none;
+    margin-top: 50px;
+}
+.u-js-tab{
+    background-color:#A5A5A5;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+    border-radius:15px;
+    font-size: 20px;
+    color:#fff;
+    margin-left: 30px;
+    cursor:pointer;
+    @media screen and (max-width:1023px){
+        width: 150px;
+        font-size: 18px;
+        padding: 10px;
+    }
+    @media screen and (max-width:767px){
+        font-size: 16px;
+        padding: 5px;
+    }
+}
+.u-js-show{
+    display: block;
+}
+.u-none{
+    display: none;
+}
+.u-show{
+    display: block!important;
+}
+
+
+//トップページの機能
+.u-js-modal2,.u-js-modal3,.u-js-modal4,
+.u-js-modal5,.u-js-modal6,.u-js-modal7,.u-js-modal8,
+.u-js-modal9,.u-js-modal10,.u-js-modal11,.u-js-modal12,
+.u-js-modal13,.u-js-modal14,.u-js-modal15,.u-js-modal16{
+    display: none;
+}
+.u-js-modal1{
+    position: absolute;
+    width: 95%;
+    top: -7%;
+    right: -33%;
+}
+.u-js-modal{
+    display: block;
+    position: absolute;
+    width: 95%;
+    top: -7%;
+    right: -33%;
+}
+.u-js-modalimg{
+    display: block;
+    width: 63%;
+    @media screen and (max-width:1023px){
+        display: none;
+    }
+}
+.u-js-modalblock{
+    width: 85%;
+    color:#fff;
+    h2{
+        font-size: 25px;
+    }
+    p{
+        margin-top: 40px;
+        line-height:2em;
+        font-size: 20px;
+    }
+}
+.u-js-topbtn{
+    position: fixed;
+    right: 10%;
+    bottom: 5%;
+    font-size: 40px;
+    color: #fff;
+    background: linear-gradient(to bottom right, #a0cbde, #afe9ce);
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height:70px;
+    border-radius:35px;
+    cursor: pointer;
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+    z-index:5;
+    @media screen and (max-width:1023px){
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 20px;
+        font-size: 20px;
+    }
+}
+.u-js-btnactive{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+//トップページのハンバーガーメニュー
+.u-js-burger-btn{
+    display: none;
+    @media screen and (max-width:767px){
+        display: block;
+        width: 39px;
+        height: 39px;
+        position:fixed;
+        top:10px;
+        left:5px;
+        z-index:7;
+    }
+}
+.u-js-bar{
+    @media screen and (max-width:767px){
+        width: 25px;
+        height: 3px;
+        display: block;
+        position:absolute;
+        left:50%;
+        transform:translateX(-50%);
+        background-color:#000;
+        transition-duration:.7s;
+        &__top{
+            top:8px;
+        }
+        &__mid{
+            top:43%;
+            transform:translate(-50%);
+        }
+        &__bottom{
+            bottom:10px;
+        }
+    }
+}
+.close .u-js-bar__top{
+    transform:translate(-50%,10px) rotate(405deg);
+    transition-duration:.5s;
+    background-color:#fff;
+}
+.close .u-js-bar__mid{
+    opacity:0;
+    transition-duration:.5s;
+}
+.close .u-js-bar__bottom{
+    transform:translate(-50%,-8px) rotate(-405deg);
+    transition-duration:.5s;
+    background-color:#fff
+}
+.u-js-nav-wrapper{
+    display: none;
+    @media screen and (max-width:767px){
+        // display: block;
+        width: 100vw;
+        height: 100vh;
+        position:fixed;
+        top:0;
+        left:0;
+        z-index:6;
+        background:linear-gradient(to bottom right,#4197b6 ,#63de9f);
+        overflow-y: scroll;
+        -ms-overflow-style: none; 
+    }
+}
+.u-js-nav-wrapper1{
+    @media screen and (max-width:767px){
+        display: none;
+    }
+}
+.u-js-nav-wrapper::-webkit-scrollbar {
+    display:none;
+}
+.u-js-header-nav{
+    @media screen and (max-width:767px){
+        display: block;
+        position:absolute;
+        top:4%;
+        left:50%;
+        transform:translate(-50%);
+        text-align: center;
+    }
+}
+.u-js-nav-item{
+    margin-right: 0;
+    color:#fff;
+}
+
+
+
+//slickや円グラフの調節のスタイル
+.slick-list img{
+    height: 180px;
+    width:auto!important;
+    @media screen and (max-width:767px){
+        height: 120px;
+    }
+}
+.slick-slider{
+    @media screen and (max-width:1023px){
+        margin-top: 50px;
+    }
+}
+#graph-area1,#graph-area2{
+    @media screen and (max-width:1023px){
+        height: 400px!important;
+        width: auto!important;
+    }
+    @media screen and (max-width:767px){
+        height: 430px!important;
+    }
+}
+#graph-area3{
+    @media screen and (max-width:1023px){
+        height: 450px!important;
+        width: auto!important;
+    }
+    @media screen and (max-width:767px){
+        height: 476px!important;
+    }
+}
+#graph-area4{
+    @media screen and (max-width:1023px){
+        height: 450px!important;
+        width: auto!important;
+    }
+    @media screen and (max-width:767px){
+        height: 500px!important;
+    }
+}
+.p-chart-block{
+    display: flex;
+    flex-wrap:wrap;
+}
+.slick-slider {
+    margin-top: 60px;
+}

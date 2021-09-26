@@ -1,0 +1,57 @@
+.c-table {
+  width: 1000px;
+  margin: 50px auto 0;
+  border: 1px solid #E0E0E0;
+}
+
+@media screen and (max-width: 1023px) {
+  .c-table {
+    width: 750px;
+    font-size: 14px;
+  }
+}
+
+.c-table__tr {
+  border-right: 1px solid #E0E0E0;
+  font-weight: normal;
+}
+
+.c-table__th--color {
+  color: #04A0E9;
+  padding: 10px 0;
+  border-right: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.c-table__block {
+  border-right: 1px solid #E0E0E0;
+  font-weight: normal;
+  padding: 10px;
+}
+
+.c-table__block-img {
+  margin-top: 10px;
+}
+
+.c-table__block-title {
+  text-align: initial;
+  font-weight: bold;
+  padding-left: 15px;
+  margin-top: 20px;
+}
+
+.c-table__block-title span {
+  font-weight: normal;
+}
+
+.c-table__block-item {
+  text-align: initial;
+  list-style: disc;
+  margin-top: 15px;
+  line-height: 1.3em;
+}
+
+.c-table__block-lists {
+  padding-left: 30px;
+}
+/*# sourceMappingURL=c-table.css.map */

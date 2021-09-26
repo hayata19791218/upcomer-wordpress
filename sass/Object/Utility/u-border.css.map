@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAA;EACN,UAAU,EAAC,iBAAiB;CAC/B",
+    "sources": [
+        "u-border.scss"
+    ],
+    "names": [],
+    "file": "u-border.css"
+}

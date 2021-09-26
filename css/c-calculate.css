@@ -1,0 +1,96 @@
+.c-calculate-plus {
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  .c-calculate-plus {
+    margin: 20px 0;
+  }
+}
+
+.c-calculate-plus__vertical {
+  position: absolute;
+  width: 10px;
+  height: 80px;
+  top: 0;
+  left: 35px;
+  background-color: #000;
+}
+
+@media screen and (max-width: 1023px) {
+  .c-calculate-plus__vertical {
+    width: 7px;
+    height: 65px;
+  }
+}
+
+.c-calculate-plus__side {
+  position: absolute;
+  width: 80px;
+  height: 10px;
+  top: 35px;
+  left: 0;
+  background-color: #000;
+}
+
+@media screen and (max-width: 1023px) {
+  .c-calculate-plus__side {
+    width: 65px;
+    height: 7px;
+    top: 30px;
+    left: 4px;
+  }
+}
+
+.c-calculate-product {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  top: 32px;
+}
+
+@media screen and (max-width: 767px) {
+  .c-calculate-product {
+    margin: 20px auto;
+    top: 37px;
+  }
+}
+
+.c-calculate-product__righttop {
+  width: 80px;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  background-color: #000;
+}
+
+@media screen and (max-width: 1023px) {
+  .c-calculate-product__righttop {
+    width: 70px;
+    height: 7px;
+  }
+}
+
+.c-calculate-product__lefttop {
+  width: 80px;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  background-color: #000;
+}
+
+@media screen and (max-width: 1023px) {
+  .c-calculate-product__lefttop {
+    width: 70px;
+    height: 7px;
+  }
+}
+/*# sourceMappingURL=c-calculate.css.map */

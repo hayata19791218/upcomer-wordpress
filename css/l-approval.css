@@ -1,0 +1,140 @@
+.l-approval-month {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 1000px;
+  margin: 100px auto 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-approval-month {
+    width: 750px;
+  }
+}
+
+.l-approval-month__content {
+  line-height: 2em;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-approval-month__content {
+    font-size: 14px;
+  }
+}
+
+.l-approval-month__point {
+  background: -webkit-gradient(linear, left top, right bottom, from(#4197b6), to(#63de9f));
+  background: linear-gradient(to bottom right, #4197b6, #63de9f);
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .l-approval-month__point {
+    font-size: 16px;
+  }
+}
+
+.l-approval-month__point-list {
+  margin-top: 15px;
+  line-height: 2em;
+}
+
+@media screen and (max-width: 767px) {
+  .l-approval-month__point-list {
+    font-size: 14px;
+  }
+}
+
+.l-approval-month__lists {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .l-approval-month__lists {
+    font-size: 14px;
+  }
+}
+
+.l-approval-month__right {
+  width: 600px;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-approval-month__right {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .l-approval-month__right {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.l-approval-month__title-bg {
+  background: -webkit-gradient(linear, left top, right bottom, from(#4197b6), to(#63de9f));
+  background: linear-gradient(to bottom right, #4197b6, #63de9f);
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-approval-month__title-bg {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .l-approval-month__title-bg {
+    margin-top: 20px;
+    line-height: 2em;
+    text-align: initial;
+  }
+}
+
+.l-approval-month__subtitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .l-approval-month__subtitle {
+    font-size: 14px;
+  }
+}
+
+.l-approval-sp {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .l-approval-sp {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .l-approval-pc {
+    display: none;
+  }
+}
+/*# sourceMappingURL=l-approval.css.map */

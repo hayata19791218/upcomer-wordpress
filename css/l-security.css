@@ -1,0 +1,233 @@
+.l-security {
+  padding: 0 40px;
+}
+
+.l-security__area {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-security__area {
+    width: 750px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .l-security__area {
+    width: 90%;
+    padding-top: 25px;
+  }
+}
+
+.l-security__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-security__block {
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .l-security__block {
+    margin-top: 30px;
+  }
+}
+
+.l-security__content {
+  font-size: 16px;
+  line-height: 2em;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-security__content {
+    font-size: 14px;
+  }
+}
+
+.l-security__field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 50px;
+}
+
+.l-security__field-img1 {
+  height: 25vh;
+  display: block;
+}
+
+.l-security__field-img2 {
+  width: 40%;
+  display: block;
+}
+
+.l-security__img1 {
+  display: block;
+  width: 40%;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-security__img1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .l-security__img1 {
+    width: 80%;
+  }
+}
+
+.l-security__img2 {
+  display: block;
+  width: 650px;
+  margin: 30px auto 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-security__img2 {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .l-security__img2 {
+    width: 90%;
+  }
+}
+
+.l-security__subtitle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2em;
+  width: 723px;
+}
+
+@media screen and (max-width: 767px) {
+  .l-security__subtitle {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+.l-security__title {
+  font-size: 30px;
+  color: #4d7d9b;
+  margin-bottom: 20px;
+}
+
+.l-security__table {
+  border-collapse: collapse;
+  width: 450px;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-security__table {
+    display: none;
+  }
+}
+
+.l-security__table-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-bottom: 70px;
+}
+
+.l-security__table-th1 {
+  border-right: 1px solid #D6D6D6;
+  height: 40px;
+  line-height: 40px;
+  font-weight: normal;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.l-security__table-th2 {
+  height: 40px;
+  line-height: 40px;
+  font-weight: normal;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.l-security__table-tr {
+  border-bottom: 1px solid #D6D6D6;
+  text-align: left;
+}
+
+.l-security__table-image-wrap {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-security__table-image-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 750px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .l-security__table-image-wrap {
+    width: 100%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.l-security__table-image {
+  display: block;
+  width: 300px;
+}
+
+@media screen and (max-width: 767px) {
+  .l-security__table-image {
+    width: 100%;
+  }
+}
+
+.l-security__wrap {
+  width: 550px;
+}
+
+@media screen and (max-width: 767px) {
+  .l-security__wrap {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=l-security.css.map */

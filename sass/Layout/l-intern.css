@@ -1,0 +1,240 @@
+.l-intern-purposes {
+  width: 1000px;
+  margin: 40px auto 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-intern-purposes {
+    width: 750px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .l-intern-purposes {
+    padding-top: 0;
+    width: 90%;
+  }
+}
+
+.l-intern-purposes__content {
+  line-height: 2em;
+}
+
+@media screen and (max-width: 767px) {
+  .l-intern-purposes__content {
+    font-size: 14px;
+  }
+}
+
+.l-intern-purposes__explain {
+  line-height: 2em;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .l-intern-purposes__explain {
+    font-size: 14px;
+    text-align: initial;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.l-intern-purposes__lists {
+  width: 800px;
+  margin: 30px auto 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-intern-purposes__lists {
+    width: 750px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .l-intern-purposes__lists {
+    width: 80%;
+  }
+}
+
+.l-intern-purposes__list {
+  font-size: 18px;
+  margin-bottom: 25px;
+  background: -webkit-gradient(linear, left top, right bottom, from(#4197b6), to(#63de9f));
+  background: linear-gradient(to bottom right, #4197b6, #63de9f);
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .l-intern-purposes__list {
+    font-size: 16px;
+    line-height: 2em;
+  }
+}
+
+.l-intern-month {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 840px;
+  margin: 60px auto 0;
+  position: relative;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-intern-month {
+    width: 750px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .l-intern-month {
+    display: none;
+  }
+}
+
+.l-intern-month__content-bg, .l-intern-month__title-bg {
+  background: -webkit-gradient(linear, left top, right bottom, from(#4197b6), to(#63de9f));
+  background: linear-gradient(to bottom right, #4197b6, #63de9f);
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .l-intern-month__content-bg, .l-intern-month__title-bg {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+}
+
+.l-intern-month__content {
+  margin-top: 20px;
+  line-height: 2em;
+}
+
+@media screen and (max-width: 767px) {
+  .l-intern-month__content {
+    font-size: 14px;
+  }
+}
+
+.l-intern-month__flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.l-intern-month__left {
+  width: 200px;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-intern-month__left {
+    width: 150px;
+    margin-right: 20px;
+  }
+}
+
+.l-intern-month__left-july, .l-intern-month__left-october {
+  line-height: 1.3em;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-intern-month__left-july, .l-intern-month__left-october {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .l-intern-month__left-july, .l-intern-month__left-october {
+    line-height: 1.5em;
+    text-align: center;
+  }
+}
+
+.l-intern-month__left-july span, .l-intern-month__left-october span {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 15px 0;
+  display: block;
+  line-height: 1.5em;
+}
+
+@media screen and (max-width: 1023px) {
+  .l-intern-month__left-july span, .l-intern-month__left-october span {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .l-intern-month__left-july span, .l-intern-month__left-october span {
+    font-size: 20px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .l-intern-month__left-july {
+    margin-top: 50px;
+  }
+}
+
+.l-intern-month__pc {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .l-intern-month__pc {
+    display: block;
+  }
+}
+
+.l-intern-month__right {
+  width: 400px;
+}
+
+@media screen and (max-width: 767px) {
+  .l-intern-month__right {
+    width: 100%;
+  }
+}
+
+.l-intern-month__sp {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .l-intern-month__sp {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.l-intern-month__title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 30px;
+  line-height: 2em;
+}
+
+@media screen and (max-width: 767px) {
+  .l-intern-month__title {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=l-intern.css.map */

@@ -1,0 +1,33 @@
+.l-newemployee__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 400px;
+  margin: 20px auto;
+}
+
+.l-newemployee__content {
+  line-height: 2em;
+  margin-top: 20px;
+}
+
+.l-newemployee__explain {
+  margin-bottom: 15px;
+  width: 500px;
+  line-height: 2em;
+}
+
+.l-newemployee__wrap-img {
+  width: 150px;
+  display: block;
+}
+
+.l-newemployee__wrap-title {
+  font-weight: bold;
+}
+/*# sourceMappingURL=l-employee.css.map */

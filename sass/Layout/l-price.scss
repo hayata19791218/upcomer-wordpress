@@ -1,0 +1,42 @@
+.l-price{
+    &__img{
+        display: none;
+        @media screen and (max-width:1023px){
+            display: block;
+            width: 650px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        @media screen and (max-width:767px){
+            width: 100%;
+        }
+    }
+    &__pc{
+        @media screen and (max-width:1023px){
+            display: none;
+        }
+    }
+    &__sp{
+        display: none;
+        @media screen and (max-width:1023px){
+            display: block;
+            width: 750px;
+            margin:100px auto 50px;
+            p{
+                margin: 20px 0;
+                line-height:2em;
+                font-size: 13px;
+            }
+        } 
+        @media screen and (max-width:767px){
+            width: 90%;
+            margin-top: 70px;
+        }
+    }
+    &__sp-table{
+        display: none;
+        @media screen and (max-width:1023px){
+            display: block;
+        }
+    }
+}

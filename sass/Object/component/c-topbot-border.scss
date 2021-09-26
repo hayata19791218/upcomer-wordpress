@@ -1,0 +1,34 @@
+.c-topbot-border{
+    width: 750px;
+    margin:70px auto 0;
+    @media screen and (max-width:1023px){
+        margin-top: 40px;
+    }
+    @media screen and (max-width:767px){
+        width: 85%;
+        font-size: 14px;
+        margin-top: 60px;
+    }
+    &__top,&__bottom{
+        height: 10px;
+        background: linear-gradient(to bottom right, #4197b6, #63de9f);
+    }
+    &__title{
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        @media screen and (max-width:1023px){
+            font-size: 18px;
+        }
+        @media screen and (max-width:767px){
+            text-align:initial;
+            font-size: 16px;
+            line-height:2em;
+            width: 68%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}

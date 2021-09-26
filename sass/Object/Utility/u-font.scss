@@ -1,0 +1,44 @@
+.u-font1{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    @media screen and (max-width:1023px){
+        font-size: 20px;
+    }
+    @media screen and (max-width:767px){
+        font-size: 18px;
+        width: 90%;
+        text-align: initial;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 2em;
+        margin-top: 10px;
+    }
+}
+.u-font2{
+    font-size: 20px;
+    margin: 0;
+    margin-top: 120px;
+    margin-right:auto;
+    margin-left: auto;
+    @media screen and (max-width:1023px){
+        margin-top: 80px;
+    }
+    @media screen and (max-width:767px){
+        width: 90%;
+        margin-top: 60px !important;
+        text-align: initial;
+        padding: 6px;
+    }
+    span{
+        font-size: 30px;
+        font-weight: bold;
+        @media screen and (max-width:1023px){
+            font-size: 25px;
+        }
+        @media screen and (max-width:767px){
+            font-size: 20px;
+        }
+    }
+}

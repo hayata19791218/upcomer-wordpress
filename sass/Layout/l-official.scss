@@ -1,0 +1,19 @@
+.l-official-circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 150px;
+    text-align: center;
+    background-color: #009999;
+    @media screen and (max-width:767px){
+        width: 69px;
+        height: 43px;
+        line-height:43px;
+        font-size: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
